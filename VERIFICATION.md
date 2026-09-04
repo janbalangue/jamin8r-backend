@@ -1,4 +1,4 @@
-# Verification status — 0.1.0
+# Verification status — 0.1.1
 
 Date: 2026-09-04
 
@@ -27,4 +27,4 @@ The intended release gate is:
 
 It could not be executed to completion in the packaging environment because that environment could not resolve `repo.maven.apache.org`, so Maven dependencies could not be downloaded. The attempt failed before Maven/Spring compilation began.
 
-Do **not** interpret the offline checks as a substitute for the full Maven test suite. Run `./mvnw verify` in a networked development/CI environment before treating 0.1.0 as a fully build-verified release.
+Do **not** interpret the offline checks as a substitute for the full Maven test suite. Run `./mvnw verify` in a networked development/CI environment before treating 0.1.1 as a fully build-verified release.

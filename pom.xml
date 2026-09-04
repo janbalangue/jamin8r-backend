@@ -13,7 +13,7 @@
 
     <groupId>com.jamin8r</groupId>
     <artifactId>jamin8r-backend</artifactId>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
     <name>jamin8r-backend</name>
     <description>Proprietary backend for Jamin8r</description>
 

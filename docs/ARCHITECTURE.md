@@ -78,4 +78,4 @@ outbox -> Pub/Sub
            +-> notification worker
 ```
 
-Cloud deployment is intentionally absent from 0.1.0.
+Cloud deployment is intentionally absent from 0.1.1.

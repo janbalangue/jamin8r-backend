@@ -15,7 +15,9 @@ Every durable integration event carries:
 
 The outbox row also carries publication attempts, last error, creation time, and publication time.
 
-## 0.1.0 event contracts
+## Current event contracts
+
+The contract set is unchanged since 0.1.0; each event carries its own `eventVersion`.
 
 ### `user.registered` / version 1
 

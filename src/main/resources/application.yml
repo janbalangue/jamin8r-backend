@@ -7,7 +7,7 @@ spring:
     virtual:
       enabled: true
   datasource:
-    url: ${JAMIN8R_DB_URL:jdbc:postgresql://localhost:5432/jamin8r}
+    url: ${JAMIN8R_DB_URL:jdbc:postgresql://localhost:5433/jamin8r}
     username: ${JAMIN8R_DB_USERNAME:jamin8r}
     password: ${JAMIN8R_DB_PASSWORD:jamin8r}
     hikari:

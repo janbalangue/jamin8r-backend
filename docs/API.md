@@ -1,6 +1,6 @@
-# HTTP API — 0.1.0
+# HTTP API — 0.1.1
 
-The HTTP surface is deliberately small. Authentication is not present in 0.1.0; see `SECURITY.md` before exposing this service publicly.
+The HTTP surface is deliberately small and is unchanged from 0.1.0; 0.1.1 is a fix-only release. Authentication is not present in 0.1.1; see `SECURITY.md` before exposing this service publicly.
 
 ## Correlation
 

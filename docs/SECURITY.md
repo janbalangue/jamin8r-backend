@@ -1,6 +1,6 @@
 # Security status
 
-0.1.0 is a backend foundation, not a production-ready authenticated service.
+0.1.1 is a backend foundation, not a production-ready authenticated service.
 
 ## Explicitly deferred
 

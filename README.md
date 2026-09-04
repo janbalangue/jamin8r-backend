@@ -2,7 +2,7 @@
 
 Private, proprietary backend for Jamin8r, a profile-first social application focused on identity, music, interests, discovery, and eventually an in-house recommendation stack.
 
-Current release: **0.1.0** (2026-09-04).
+Current release: **0.1.1** (2026-09-04).
 
 ## Technology baseline
 
@@ -18,7 +18,7 @@ The application starts as a modular monolith. PostgreSQL is the transactional so
 
 ## Current vertical slice
 
-0.1.0 implements:
+0.1.1 implements:
 
 - create a user;
 - create or update that user's profile;
@@ -39,6 +39,8 @@ Requirements: JDK 21+, Docker/Podman for local PostgreSQL, and either Maven 3.9.
 docker compose up -d
 ./mvnw spring-boot:run
 ```
+
+The Compose database publishes PostgreSQL on host port **5433**, not the default 5432, so it does not collide with a PostgreSQL instance already running on the machine. `.env.example` and the application defaults already point at 5433.
 
 The API listens on `http://localhost:8080`.
 
@@ -124,7 +126,7 @@ The default runtime expects PostgreSQL:
 
 | Variable | Default |
 |---|---|
-| `JAMIN8R_DB_URL` | `jdbc:postgresql://localhost:5432/jamin8r` |
+| `JAMIN8R_DB_URL` | `jdbc:postgresql://localhost:5433/jamin8r` |
 | `JAMIN8R_DB_USERNAME` | `jamin8r` |
 | `JAMIN8R_DB_PASSWORD` | `jamin8r` |
 | `JAMIN8R_OUTBOX_DISPATCH_ENABLED` | `false` |
